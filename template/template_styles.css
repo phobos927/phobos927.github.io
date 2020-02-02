@@ -128,13 +128,17 @@ header.header-fixed-top.navbar-fixed-top{
 	height: 2.35rem;
 	transition: .3s;
 }
+.social-icon:not(:last-child){
+	margin-bottom: .9rem;
+}
 .social-icon:hover{
 	filter: invert(1);
 }
 .social-icon img{
 	display: block;
-	width: 100%;
-	max-width: 1.1rem;
+	width: auto;
+	height: 100%;
+	max-height: 1rem;
 }
 
 .slider-item{
