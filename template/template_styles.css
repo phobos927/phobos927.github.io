@@ -329,6 +329,13 @@ header.header-fixed-top.navbar-fixed-top{
 	border-bottom: 1px solid #0d0e0d;
 	padding-bottom: .5rem;
 }
+.team-item__photo{
+	width: 100%;
+	padding-bottom: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
 .team-item-detail-link{
 	display: -webkit-flex;
 	display: -moz-flex;
