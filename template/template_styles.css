@@ -37,6 +37,8 @@ header *{
 }
 header.header-fixed-top{
 	max-height: 3.5rem;
+	padding-bottom: 10px;
+	box-sizing: content-box;
 }
 header.header-fixed-top.navbar-fixed-top{
 	position: fixed;
@@ -123,7 +125,8 @@ header.header-fixed-top.navbar-fixed-top{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
+	padding-top: 15%;
 	position: absolute;
 	top: 0;
 	left: 0;
