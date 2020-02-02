@@ -37,7 +37,7 @@ header *{
 }
 header.header-fixed-top{
 	max-height: 3.5rem;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	box-sizing: content-box;
 }
 header.header-fixed-top.navbar-fixed-top{
@@ -107,6 +107,36 @@ header.header-fixed-top.navbar-fixed-top{
 	max-width: 8rem;
 	height: auto;
 }
+.social-icons-slider{
+	position: absolute;
+	top: 5rem;
+	right: 3rem;
+	z-index: 300;
+}
+.social-icon{
+	display: block;
+	background-color: #111111;
+	border-radius: 50%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.35rem;
+	height: 2.35rem;
+	transition: .3s;
+}
+.social-icon:hover{
+	filter: invert(1);
+}
+.social-icon img{
+	display: block;
+	width: 100%;
+	max-width: 1.1rem;
+}
+
 .slider-item{
 	position: relative;
 }
