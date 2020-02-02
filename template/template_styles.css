@@ -334,7 +334,7 @@ header.header-fixed-top.navbar-fixed-top{
 	padding-bottom: 100%;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-position: center;
+	background-position: center; 
 }
 .team-item-detail-link{
 	display: -webkit-flex;
