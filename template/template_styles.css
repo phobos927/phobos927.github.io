@@ -447,10 +447,19 @@ footer{
 		background: unset;
 		width: auto;
 		height: auto;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
 	}
 	.social-icons-footer .social-icon{
 		margin-bottom: 0;
 		margin-right: 20px;
+		width: auto;
+		height: auto;
+		border-radius: initial;
+		filter: initial;
 	}
 	.menu-container > .menu-item{
 		display: none;
