@@ -306,6 +306,42 @@ header.header-fixed-top.navbar-fixed-top{
 	text-align: center;
 	margin-top: 1rem;
 }
+.team-item{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+}
+.team-item__info{
+	flex: 1 1 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+.team-item__info__info{
+	flex: 1 1 auto;
+	border-bottom: 1px solid #0d0e0d;
+	padding-bottom: .5rem;
+}
+.team-item-detail-link{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	margin-top: 1rem;
+}
+.team-item-detail-link img{
+	display: block;
+	margin-right: .75rem;
+}
 a.team-item-detail-link.btn-ph{
 	color: #0d0e0d;
 	border-color: #0d0e0d;
