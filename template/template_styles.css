@@ -258,7 +258,8 @@ header.header-fixed-top.navbar-fixed-top{
 	-webkit-background-size: contain;
 	background-size: contain;
 	background-position: bottom;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;	
+	padding-bottom: 6rem;
 }
 .frame-2{
 	background-image: url(/img/s2-ram.svg);
@@ -326,7 +327,7 @@ header.header-fixed-top.navbar-fixed-top{
 }
 .team-item__info__info{
 	flex: 1 1 auto;
-	border-bottom: 1px solid #0d0e0d;
+	border-bottom: 3px solid #0d0e0d;
 	padding-bottom: .5rem;
 }
 .team-item__photo{
@@ -428,7 +429,7 @@ a.team-item-detail-link.btn-ph{
 }
 
 footer{
-	margin-top: 6rem;
+	
 	background-color: #0f100f;
 	padding-top: 1.75rem;
 	padding-bottom: 1.75rem;
