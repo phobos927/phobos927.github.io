@@ -439,6 +439,19 @@ footer{
 		font-size: 20px;
 		overflow-x: hidden;
 	}
+	.social-icons-slider{
+		display: none;
+	}
+	.social-icons-footer{
+		margin-bottom: 1.5rem;
+		background: unset;
+		width: auto;
+		height: auto;
+	}
+	.social-icons-footer .social-icon{
+		margin-bottom: 0;
+		margin-right: 20px;
+	}
 	.menu-container > .menu-item{
 		display: none;
 	}
