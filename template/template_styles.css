@@ -656,4 +656,7 @@ footer{
 		font-size: 16px;
 		margin-bottom: 9px;
 	}
+	.mb15px_mob{
+		margin-bottom: 15px;
+	}
 }
