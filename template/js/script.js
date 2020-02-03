@@ -220,7 +220,7 @@ function updateSelected(){
 	$('section').each(function(){
 		if ($(document).scrollTop()+100 + $(window).height()/2 > $(this).offset().top/* && $(document).scrollTop() - $(this).offset().top < $(this).height()*/){			
 			var stateObj = { path: "#"+this.hash };
-			history.pushState(stateObj, "", location.protocol + '//' + location.host + location.pathname + '#'+$(this).attr('id'));
+			//history.pushState(stateObj, "", location.protocol + '//' + location.host + location.pathname + '#'+$(this).attr('id'));
 			var b_hash = '#'+$(this).attr('id');
 
 			$('.menu-item').each(function(){
