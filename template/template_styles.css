@@ -230,7 +230,7 @@ header.header-fixed-top.navbar-fixed-top{
 .section-2{
 	position: relative;
 	z-index: 2;
-	background: url(/img/circle_manifest.svg) center left / 50% auto no-repeat, url(/img/manifest_tank.svg) center right / 30% auto no-repeat;
+	background: url(/img/circle_manifest.svg) center left / 50% auto no-repeat, url(/img/manifest_tank.svg) center right / 60% auto no-repeat;
 	/*background-size: 30%;*/
 }
 .section-3{
