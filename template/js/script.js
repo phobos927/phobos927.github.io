@@ -339,6 +339,7 @@ $(function(){
 		dots: true,
 		items:1,
 		dotsContainer: '.custom-dots',
+		navContainer: '.custom-nav'
 	});
 
 	$('.mobile-menu-open').click(function(){
