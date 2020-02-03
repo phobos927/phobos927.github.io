@@ -336,10 +336,12 @@ $(function(){
 		loop:true,
 		margin:30,
 		nav:false,
-		dots: true,
+		dots: false,
 		items:1,
-		dotsContainer: '.custom-dots',
-		navContainer: '.custom-nav'
+		mouseDrag: false,
+		touchDrag: false,
+		//dotsContainer: '.custom-dots',
+		//navContainer: '.custom-nav'
 	});
 
 	$('.mobile-menu-open').click(function(){
